@@ -1,0 +1,57 @@
+{
+  "debug": true,
+  "storage_path": "/usr/local/secura_nas/",
+  "gpu_memory": 0.333,
+  "draw_rect": true,
+  "license_url":"http://192.168.10.116:5000/secura/licence/validate",
+  "client_id": "HAWKING_RMC",
+  "user": "superadmin",
+  "passwd":"L00km@n@!23",
+  "key": "0123456789abcdef",
+  "post_url": "http://192.168.10.116:5000/secura/analytics/addHawkingDetails",
+  "model_path": "input/yolov3_test_loss=22.7154.ckpt",
+  "model_names_path": "input/hawker.name",
+  "analytics_type": "HAWKING_VIOLATION",
+  "white_list": ["HAWKER_HUMAN_CART","HAWKER_ANIMAL_CART","HAWKER_MOTORIZED_CART"],
+  "cameras": [
+    {
+      "height": 720,
+      "width": 1280,
+      "skip_frames": 75,
+      "static_frames": 5,
+      "number_of_check": 8,
+      "intersect_pixel": 5,
+      "enable_green_zone": 0,
+      "site_id": "JUBILEE",
+      "confidence": 0.2,
+      "queue_size": 8,
+      "app_id": "POLE_02",
+      "camera_id": "JUBILEE_CAM01",
+      "camera_name": "JUBILEE_CAM01",
+      "url": "1.mp4",
+      "zones": [
+        {
+          "zone_name": "JUBILEE_ZONE1",
+          "points": [
+            {
+              "x": 92,
+              "y": 573
+            },
+            {
+              "x": 264,
+              "y": 713
+            },
+            {
+              "x": 947,
+              "y": 426
+            },
+            {
+              "x": 827,
+              "y": 354
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "cameras": [
+    {
+      "site_id": "JUBILEE",
+      "app_id": "POLE_02",
+      "camera_id": "678266284-287648726-298478927-2478792",
+      "camera_name": "JUBILEE_CAM01",
+      "analytics_type": "HAWKERDETECTION",
+      "config_file": "config.json",
+      "url": "1.mp4"
+    }
+  ]
+}
